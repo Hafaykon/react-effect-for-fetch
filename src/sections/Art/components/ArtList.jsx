@@ -17,15 +17,11 @@ const ArtList = () => {
         fetchData();
     }, [])
 
-    useEffect(() => {
-        console.log({...data})
-    }, [data])
-
     return(
         <>
             <ul className="art-list"> 
                 { data.map((art) => ( <li key={art.id}> <ArtListItem artData={art} /></li>)) }
-             </ul>
+            </ul>
         </>
     )
 }

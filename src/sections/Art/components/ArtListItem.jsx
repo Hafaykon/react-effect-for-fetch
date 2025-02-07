@@ -22,5 +22,3 @@ const ArtListItem = ({artData}) => {
 }
 
 export default ArtListItem
-
-// <PublicationHistoryList publicationData={artData.publicationHistory} />
